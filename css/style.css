@@ -1,20 +1,20 @@
 *{
-	margin:0;
-	padding: 0;
+    margin:0;
+    padding: 0;
 }
 body{
-	font-size: 16px;
-	color:#333;
-	font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color:#333;
+    font-family: 'Open Sans', sans-serif;
 }
-header{padding: 40px 0;background-color: #EEE;}
+header{padding: 40px 0;background-color: #EEE;/* max-width: 110px; *//* margin: 0 auto; */}
 li{
-	list-style: none;
+    list-style: none;
 }
 .container{
-	width: 1500px;
-	margin: 0 auto;
-	overflow: hidden;
+    width: 1300px;
+    margin: 0 auto;
+    overflow: hidden;
 }
 .logo{width: 20%;float: left;}
 .logo img{}
@@ -40,7 +40,7 @@ nav ul li a:hover{
     color: #f3b91e;
 }
 img{
-	max-width: 100%;
+    max-width: 100%;
 }
 .social-list{
     width: 20%;
@@ -57,13 +57,13 @@ img{
     padding: 10px 20px;
 }
 .social-list ul li a:hover{
-	color: #f3b91e;
+    color: #f3b91e;
 }
 .banner-section{
-	background-image: url(../images/img1.jpg);
-	background-color: #0000007d;
-	min-height: 90vh;
-	background-blend-mode: color;
+    background-image: url(../images/img1.jpg);
+    background-color: #0000007d;
+    min-height: 90vh;
+    background-blend-mode: color;
 }
 .banner-content{
     width: 50%;
@@ -83,7 +83,7 @@ img{
     margin-top: 20px;
 }
 .about-us-section{
-	padding: 100px 0;
+    padding: 100px 0;
 }
 .flex{
     display: flex;
@@ -107,6 +107,7 @@ img{
     margin: auto;
     display: block;
     margin-bottom: 30px;
+    margin-top: 51px;
 }
 .col p{
     font-size: 18px;
@@ -131,7 +132,7 @@ img{
     box-shadow: 0 0 20px #9898986e;
 }
 .course .course-box:hover{
-	box-shadow: 0 0 0 #9898986e;
+    box-shadow: 0 0 0 #9898986e;
 }
 .course-box div{
     padding: 20px;
